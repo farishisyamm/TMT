@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/ClassObject/ClassObject.iml" filepath="$PROJECT_DIR$/BE/W1/ClassObject/ClassObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/Contact/Contact.iml" filepath="$PROJECT_DIR$/BE/W1/Contact/Contact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/Game/Game.iml" filepath="$PROJECT_DIR$/BE/W1/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/Looping/Looping.iml" filepath="$PROJECT_DIR$/BE/W1/Looping/Looping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/PemrosesanDataMahasiswa/PemrosesanDataMahasiswa.iml" filepath="$PROJECT_DIR$/BE/W1/PemrosesanDataMahasiswa/PemrosesanDataMahasiswa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/Perpustakaan/Perpustakaan.iml" filepath="$PROJECT_DIR$/BE/W1/Perpustakaan/Perpustakaan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/PyramidOfNumber/PyramidOfNumber.iml" filepath="$PROJECT_DIR$/BE/W1/PyramidOfNumber/PyramidOfNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TMT.iml" filepath="$PROJECT_DIR$/.idea/TMT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/Transaction/Transaction.iml" filepath="$PROJECT_DIR$/BE/W1/Transaction/Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/UniversityStudent/UniversityStudent.iml" filepath="$PROJECT_DIR$/BE/W1/UniversityStudent/UniversityStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/VendingMachine/VendingMachine.iml" filepath="$PROJECT_DIR$/BE/W1/VendingMachine/VendingMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/array/array.iml" filepath="$PROJECT_DIR$/BE/W1/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/ngetes/ngetes.iml" filepath="$PROJECT_DIR$/BE/W1/ngetes/ngetes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/switchCase/switchCase.iml" filepath="$PROJECT_DIR$/BE/W1/switchCase/switchCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BE/W1/untitled/untitled.iml" filepath="$PROJECT_DIR$/BE/W1/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
