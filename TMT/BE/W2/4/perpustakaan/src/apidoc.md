@@ -80,7 +80,7 @@ Add a new book to the list.
 {
     "id": 4,
     "name": "Python",
-    "author": "Faris"
+    "author": "Andi"
 }
 ```
 
