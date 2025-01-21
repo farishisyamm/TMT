@@ -1,14 +1,18 @@
 package com.sgedts.perpustakaan.service;
 
 import com.sgedts.perpustakaan.bean.BookListResponseBean;
+import com.sgedts.perpustakaan.model.Books;
+import com.sgedts.perpustakaan.repository.BooksRepository;
 import org.springframework.stereotype.Service;
 
+import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 @Service
 public class BookService {
+    private final BooksRepository booksRepository;
     List<BookListResponseBean> books;
 
     public BookService() {
@@ -35,7 +39,10 @@ public class BookService {
     }
 
     public BookListResponseBean addBook(BookListResponseBean newBook) {
-        books.add(newBook);
+        Books books1 = new Books();
+        books1.setName(newBook.getName());
+        books1.setAuthor(newBook.getAuthor());
+        booksRepository.save(books1);
         return newBook;
     }
 

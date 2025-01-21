@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "db1b0336-fee2-4be6-bdce-5a7a1876e317",
+		"name": "w3-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41286776"
+	},
+	"item": [
+		{
+			"name": "GET Employees",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "keyword",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8080/api/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Employee By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/api/employees/5"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Employee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Fajar\",\r\n    \"position\": \"Backend Engineer\",\r\n    \"salary\": \"100000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Employee By ID",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Fajar\",\r\n    \"position\": \"Backend Engineer\",\r\n    \"salary\": 120000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/employees/6"
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH Employee By ID",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"position\": \"Senior Backend Engineer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/employees/6"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Book By ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/employees/6"
+			},
+			"response": []
+		}
+	]
+}
